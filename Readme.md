@@ -31,7 +31,70 @@ This system stores complaints in a file, ensuring persistence even after the pro
 ---
 
 ## 📂 Project Structure
+ComplaintRegistrationSystem/
+│── ComplaintRegistrationSystem.java # Main program file
+│── complaints.dat # Serialized storage file
+│── README.md # Project documentation
+---
+
+## 🚀 How to Run
+1. Clone this repository:
+   ```bash
+   git clone https://github.com/02pasco/ComplaintRegistrationSystem.git
+   
+2.Open in your Java IDE (e.g., Eclipse).
+3.Compile and run:
+
+javac ComplaintRegistrationSystem.java
+java ComplaintRegistrationSystem
 
 
+📌 Sample Output
+===== Complaint Registration System =====
+1. Register Complaint
+2. View All Complaints
+3. Exit
+Enter your choice: 1
+
+Enter your name: John Doe
+Enter your complaint: Internet not working for 3 days.
+Complaint registered successfully with ID: C001
+
+===== Complaint Registration System =====
+1. Register Complaint
+2. View All Complaints
+3. Exit
+Enter your choice: 1
+
+Enter your name: Jane Smith
+Enter your complaint: Water leakage in the apartment.
+Complaint registered successfully with ID: C002
+
+===== Complaint Registration System =====
+1. Register Complaint
+2. View All Complaints
+3. Exit
+Enter your choice: 2
+
+List of Complaints:
+---------------------------------
+ID: C001
+Name: John Doe
+Complaint: Internet not working for 3 days.
+---------------------------------
+ID: C002
+Name: Jane Smith
+Complaint: Water leakage in the apartment.
+---------------------------------
+
+===== Complaint Registration System =====
+1. Register Complaint
+2. View All Complaints
+3. Exit
+Enter your choice: 3
+
+Exiting the system... Thank you!
+
+📌 License
 This project is open-source and free to use for learning purposes.
 
