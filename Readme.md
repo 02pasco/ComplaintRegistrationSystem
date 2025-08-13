@@ -1,31 +1,37 @@
-<!-- Project Header -->
-<h1 align="center">📂 Complaint Registration System</h1>
-<h3 align="center">Java | OOP | File Handling</h3>
+# 📌 Complaint Registration System
 
----
-
-## 🚀 About the Project
-The **Complaint Registration System** is a Java-based console application that allows users to register complaints with their name, email, and timestamp.  
-This project demonstrates **Object-Oriented Programming (OOP)**, **ArrayList usage**, and **File Handling** for persistent data storage.
-
----
-
-## ✨ Features
-- ✅ Register a complaint with name, email, and text
-- ✅ Automatically store the date & time of complaint
-- ✅ View all stored complaints
-- ✅ Persistent storage using `.dat` file
-- ✅ Menu-driven and beginner-friendly
-
----
-
-## 🛠 Tech Stack
 ![Java](https://img.shields.io/badge/Java-%23ED8B00.svg?style=for-the-badge&logo=java&logoColor=white)
-![OOP](https://img.shields.io/badge/OOP-Concepts-orange?style=for-the-badge)
-![File Handling](https://img.shields.io/badge/File-Handling-lightgrey?style=for-the-badge)
-![Git](https://img.shields.io/badge/Git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white)
-![GitHub](https://img.shields.io/badge/GitHub-black?style=for-the-badge&logo=github)
+![OOP](https://img.shields.io/badge/OOP-%2300599C.svg?style=for-the-badge&logo=java&logoColor=white)
+![File Handling](https://img.shields.io/badge/File%20Handling-%23000000.svg?style=for-the-badge&logo=java&logoColor=white)
 
 ---
 
-## 📸 Sample Output
+## 📖 Project Overview
+The **Complaint Registration System** is a Java-based console application that allows users to register, view, and store complaints using **Object-Oriented Programming (OOP)** principles and **file handling**.
+
+This system stores complaints in a file, ensuring persistence even after the program ends. It’s ideal for learning **Java I/O streams**, OOP, and basic CRUD operations.
+
+---
+
+## 🎯 Features
+- Add a new complaint with user details and complaint text.
+- Automatically assigns a unique complaint ID.
+- View all registered complaints.
+- Stores complaints permanently in a file.
+- Uses serialization for data storage.
+
+---
+
+## 🛠 Technologies Used
+- **Java**
+- **OOP Concepts**
+- **File Handling (Serialization)**
+- **Eclipse IDE** (or any Java IDE)
+
+---
+
+## 📂 Project Structure
+
+
+This project is open-source and free to use for learning purposes.
+
